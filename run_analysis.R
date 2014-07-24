@@ -60,3 +60,4 @@ TidyDat <- ddply(FinalDat, .(Subject, Activity),function(x) colMeans(x[,3:68]))
 
 write.csv(TidyDat, "TidyDat.csv", row.names=FALSE)
 
+
