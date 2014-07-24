@@ -1,10 +1,10 @@
-##Getting and Cleaning Data Course Project – Code Book
+##Getting and Cleaning Data Course Project ï¿½ Code Book
 
 This code book has four sections:
-<b>Data Overview </b>– A description of the raw data and links to the data and its original documentation
-<b>R Script Instructions </b>– The 5 tasks that the R script is expected to perform
-<b>R Script Overview </b>– A general narrative of how the run_analysis.R script works
-<b>Tidy Dataset Description </b>– Information on the required dataset for the course project
+<b>Data Overview </b>ï¿½ A description of the raw data and links to the data and its original documentation
+<b>R Script Instructions </b>ï¿½ The 5 tasks that the R script is expected to perform
+<b>R Script Overview </b>ï¿½ A general narrative of how the run_analysis.R script works
+<b>Tidy Dataset Description </b>ï¿½ Information on the required dataset for the course project
 
 ###Data Overview
 The raw data used in this project is the Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
@@ -24,7 +24,7 @@ The course project requires a R script (named run_analysis.R) to be written that
 5 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ###R Script Overview
-Before run_analysis is invoked, it is assumed that the raw data has already been downloaded and unzipped into R’s working directory (the unzipped raw data is also included in this repo).
+Before run_analysis is invoked, it is assumed that the raw data has already been downloaded and unzipped into Rï¿½s working directory (the unzipped raw data is also included in this repo).
 
 The run_analysis.R script works in the following way:
 
@@ -37,7 +37,7 @@ While it may be an unnecessary effort the r-bound Data, Labels and Subject data 
 The MasterSet object should satify the first requirement from the R Script Instructions.
 
 I personally found it more helpful to label the data with the descriptive variable names provided from the features.txt file at this point.  That is because of the next step where variables relating to the mean or std (standard deviation) are to be extracted.
-Using the grep function, any variable that had the text “mean” or “std” was extracted into an object called Measures.
+Using the grep function, any variable that had the text ï¿½meanï¿½ or ï¿½stdï¿½ was extracted into an object called Measures.
 
 With the Activity variable, the numbers were replaced with word descriptions of the activity being performed.
 
